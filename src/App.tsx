@@ -1,6 +1,5 @@
 import React from "react";
 import {
-    UseActionUseSelectorComponent,
     UseCallbackComponent,
     UseEffectComponent,
     UseMemoComponent,
@@ -8,13 +7,15 @@ import {
     UseStateComponent,
     UseTransitionComponent,
     ParentContextComponent,
-    UseRefComponent
+    UseRefComponent,
+    UseIdComponent,
+    UseTypeSelectorUseActionComponent
 } from './hooks'
 
 const App: React.FC = () => {
     return (
         <>
-            <UseReducerComponent/>
+            <UseTypeSelectorUseActionComponent/>
         </>
     )
 }
