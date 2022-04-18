@@ -6,7 +6,7 @@ interface IState {
 }
 
 const initialState: IState = {
-    todo: []
+    todo: [{value: 'Dosya', id: 1}]
 }
 
 export const reducer = (state: IState = initialState, action: IAction) => {
